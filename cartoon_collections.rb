@@ -24,7 +24,8 @@ def find_the_cheese(ingredient_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   ingredient_array.find do |ingredient|
     binding.pry
-    ingredient.include?(cheese_types)  
+    ingredient.include?(crackers)
+    ingredient.include?()
   end   
 end
 
