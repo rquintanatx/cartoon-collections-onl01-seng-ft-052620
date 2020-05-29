@@ -7,7 +7,9 @@ def roll_call_dwarves(dwarf_array)
 end
 
 def summon_captain_planet(call_array)
-  call_array.collect
+  mod_call_array = call_array.collect do
+    |call|   
+  end   
 end
 
 def long_planeteer_calls# code an argument here
