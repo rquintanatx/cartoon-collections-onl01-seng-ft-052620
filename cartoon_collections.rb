@@ -32,5 +32,5 @@ def find_the_cheese(ingredient_array)
   end
 end
 
-find_the_cheese()
+find_the_cheese(
 
