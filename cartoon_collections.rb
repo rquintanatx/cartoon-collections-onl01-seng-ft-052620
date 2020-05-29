@@ -23,14 +23,11 @@ end
 def find_the_cheese(ingredient_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   ingredient_array.find do |ingredient|
-    i = 0 
-    while i < 2
-      if cheese_types[i] == ingredient
-        return ingredient
-      else 
-        return nil
-      end
-     end
-  end   
+    if cheese_types.include?(ingredient)
+      return ingredient
+    else 
+      return nil
+    end
+  end
 end
 
