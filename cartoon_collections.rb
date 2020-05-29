@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarf_array)
-  dwarf_number = 0
+  dwarf_number = 1
   dwarf_array.each do |dwarf| 
     puts "#{dwarf_number}. #{dwarf}"
     dwarf_number += 1
