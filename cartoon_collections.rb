@@ -10,8 +10,9 @@ end
 
 def summon_captain_planet(call_array)
   mod_call_array = call_array.collect do
-    |call| call.capitalize 
-    call + "!"
+    |call| call + "!"
+    call.capitalize
+    
   end   
 end
 
