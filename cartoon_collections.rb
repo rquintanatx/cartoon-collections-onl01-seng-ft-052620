@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(dwarf_array)
   dwarf_number = 1
   dwarf_array.each do |dwarf| 
@@ -9,6 +11,7 @@ end
 def summon_captain_planet(call_array)
   mod_call_array = call_array.collect do
     |call| call.capitalize 
+    binding.pry
     call + "!"
   end   
 end
@@ -21,3 +24,5 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+summon_captain_planet()
