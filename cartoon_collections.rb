@@ -9,10 +9,9 @@ def roll_call_dwarves(dwarf_array)
 end
 
 def summon_captain_planet(call_array)
-  mod_call_array = call_array.collect do
-    |call| call + "!"
+  mod_call_array = call_array.collect do |call|
     call.capitalize
-    
+    call + "!"
   end   
 end
 
