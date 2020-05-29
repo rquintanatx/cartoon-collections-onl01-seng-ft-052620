@@ -29,6 +29,7 @@ def find_the_cheese(ingredient_array)
       return ingredient
     else 
       return nil
+    end
   end   
 end
 
