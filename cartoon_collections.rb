@@ -25,11 +25,12 @@ def find_the_cheese(ingredient_array)
   ingredient_array.find do |ingredient|
     i = 0 
     while i < 2
-    if cheese_types[i] == ingredient
-      return ingredient
-    else 
-      return nil
-    end
+      if cheese_types[i] == ingredient
+        return ingredient
+      else 
+        return nil
+      end
+     end
   end   
 end
 
